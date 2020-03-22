@@ -18,7 +18,7 @@ class AVLTree(object):
 
     def _find(self, key, node):
         if not node:
-            return None
+            return None 
         elif key < node.data:
             return self._find(key, node.left)
         elif key > node.data:
